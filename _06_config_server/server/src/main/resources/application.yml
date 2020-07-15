@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/694718795/configservertest0612.git # 配置git仓库的地址
           search-paths: config-repo                              # git仓库地址下的相对地址，可以配置多个，用,分割。
-          username: 694718795                                    # git仓库的账号
-          password: Zz774194095+                                # git仓库的密码
+          username:                                     # git仓库的账号
+          password:                                 # git仓库的密码
 # 客户端调用需要
 management:
   endpoints:
