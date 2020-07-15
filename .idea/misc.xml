@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/_01_eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/_02_eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/_02_eureka_highavailable/pom.xml" />
+        <option value="$PROJECT_DIR$/_04_eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/_05_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/_06_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/_07_hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/_08_zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>

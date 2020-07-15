@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_02_eureka_client" />
+        <module name="_03_eureka_highavailable" />
+        <module name="_04_eureka_client" />
+        <module name="_05_feign" />
+        <module name="eureka" />
+        <module name="_01_eureka_server" />
+        <module name="_08_zuul" />
+        <module name="server" />
+        <module name="_07_hystrix" />
+        <module name="client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_01_eureka_server" target="1.8" />
+      <module name="_02_eureka_client" target="1.8" />
+      <module name="_03_eureka_highavailable" target="1.8" />
+      <module name="_04_eureka_client" target="1.8" />
+      <module name="_05_feign" target="1.8" />
+      <module name="_06_config_server" target="1.8" />
+      <module name="_07_hystrix" target="1.8" />
+      <module name="_08_zuul" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="_01_eureka_server" options="-parameters" />
+      <module name="_02_eureka_client" options="-parameters" />
+      <module name="_03_eureka_highavailable" options="-parameters" />
+      <module name="_04_eureka_client" options="-parameters" />
+      <module name="_05_feign" options="-parameters" />
+      <module name="_06_config_server" options="-parameters" />
+      <module name="_07_hystrix" options="-parameters" />
+      <module name="_08_zuul" options="-parameters" />
+      <module name="client" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="server" options="-parameters" />
+    </option>
+  </component>
+</project>

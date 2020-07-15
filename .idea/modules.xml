@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/_01_eureka_server/_01_eureka_server.iml" filepath="$PROJECT_DIR$/_01_eureka_server/_01_eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_eureka_client/_02_eureka_client.iml" filepath="$PROJECT_DIR$/_02_eureka_client/_02_eureka_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_eureka_highavailable/_03_eureka_highavailable.iml" filepath="$PROJECT_DIR$/_03_eureka_highavailable/_03_eureka_highavailable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04_eureka_client/_04_eureka_client.iml" filepath="$PROJECT_DIR$/_04_eureka_client/_04_eureka_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05_feign/_05_feign.iml" filepath="$PROJECT_DIR$/_05_feign/_05_feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_config_server/_06_config_server.iml" filepath="$PROJECT_DIR$/_06_config_server/_06_config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_07_hystrix/_07_hystrix.iml" filepath="$PROJECT_DIR$/_07_hystrix/_07_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_zuul/_08_zuul.iml" filepath="$PROJECT_DIR$/_08_zuul/_08_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_config_server/client/client.iml" filepath="$PROJECT_DIR$/_06_config_server/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_config_server/eureka/eureka.iml" filepath="$PROJECT_DIR$/_06_config_server/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_config_server/server/server.iml" filepath="$PROJECT_DIR$/_06_config_server/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springclouddemo.iml" filepath="$PROJECT_DIR$/.idea/springclouddemo.iml" />
+    </modules>
+  </component>
+</project>
