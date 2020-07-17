@@ -1,10 +1,12 @@
 package com.shu.feign;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * @description:
@@ -21,9 +23,21 @@ public class TestController {
     private FeignClientInter feignClientInter;
 
 
+    @Autowired
+    private RestTemplate restTemplate;
+
+
     @GetMapping("/feigntest")
     public String feigntest() {
         String result = feignClientInter.home("feign调用");
         return "调用返回值:" +result;
+    }
+
+    @GetMapping("/ribbontest")
+    public String ribbontest() {
+      ResponseEntity<String> responseEntity= restTemplate.getForEntity("http://SERVICE-HI/hi/name={1}",String.class,"asdf");
+        String body = responseEntity.getBody();
+
+        return "调用返回值:" +body;
     }
 }

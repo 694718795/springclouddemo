@@ -22,9 +22,9 @@ public class feignApplication {
         SpringApplication.run(feignApplication.class, args);
     }
 
-//    @Bean
-//    @LoadBalanced
-//    RestTemplate restTemplate() {
-//        return new RestTemplate();
-//    }
+    @Bean
+    @LoadBalanced
+    RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 }

@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(value = "service-hi")
 public interface FeignClientInter {
 
-
     /**
      * @param name
      * @return
