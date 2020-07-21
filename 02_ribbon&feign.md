@@ -20,7 +20,9 @@
 
 ## 2 运行演示
 
-<http://127.0.0.1:8765/ribbontest> 
+加了负载均衡注解的restTemplate <http://127.0.0.1:8765/ribbontest>   
+
+ 普通的restTemplate <http://127.0.0.1:8765/noribbontest> 
 
 ![](assets/1594890731833.png)
 
